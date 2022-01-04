@@ -1,0 +1,8 @@
+description = "Spring STP"
+
+group 'org.springframework'
+version '5.1.2.RELEASE'
+
+dependencies {
+    implementation(project(":spring-context"))
+}
